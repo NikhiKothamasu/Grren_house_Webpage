@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhancing Agricultural Productivity with IoT-Based Soil Nutrient Monitoring and Cloud Integration</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body, html {
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+            color: #333;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem;
+            z-index: 3;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        .navbar a:hover {
+            color: #28a745;
+        }
+
+        /* Dropdown Menu */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.9);
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/021/746/785/small_2x/holding-a-tree-in-a-ball-ecology-and-environment-concept-with-generative-ai-photo.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            padding-top: 3rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            padding: 0.8rem 2rem;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <div class="dropdown">
+            <a href="about.html">About</a>
+            <div class="dropdown-content">
+                <a href="about.html#overview">Overview</a>
+                <a href="about.html#solution">Solution</a>
+                <a href="about.html#benefits">Benefits</a>
+            </div>
+        </div>
+        <a href="team.html">Contact</a>
+        <a href="contact.html">Team Members</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Enhancing Agricultural Productivity</h1>
+            <h2>IoT-Based Soil Nutrient Monitoring & Cloud Integration</h2>
+            <p>Empowering Farmers with Real-Time Data for Optimal Crop Health</p>
+            <a href="Nextpage.html" > <button type="button" class="cta-button">Learn More</button></a>
+        </div>
+    </header>
+
+</body>
+</html>
